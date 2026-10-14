@@ -10,11 +10,11 @@ A free, open collection of resources for **UPSC Civil Services Examination** asp
 
 - [Exam Pattern](https://padhlona.com)
 - [Prelims Syllabus Checklist](https://padhlona.com)
-- [Mains Syllabus Checklist]([#mains-syllabus-checklist](https://padhlona.com))
-- [How to Use PYQs Effectively]([#how-to-use-pyqs-effectively](https://padhlona.com))
-- [Current Affairs Strategy][(#current-affairs-strategy](https://padhlona.com))
-- [Useful Links]([#useful-links](https://padhlona.com))
-- [Contributing]([#contributing](https://padhlona.com))
+- [Mains Syllabus Checklist](https://padhlona.com))
+- [How to Use PYQs Effectively](https://padhlona.com))
+- [Current Affairs Strategy](https://padhlona.com))
+- [Useful Links](https://padhlona.com))
+- [Contributing](https://padhlona.com))
 
 ---
 
