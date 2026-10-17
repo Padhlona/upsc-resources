@@ -1,174 +1,671 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Free UPSC PYQs, Daily Current Affairs & Practice Questions | PadhLona</title>
-<meta name="description" content="Practise UPSC previous year questions, read daily current affairs and solve practice questions for Prelims and Mains at PadhLona.">
-<!-- Replace YOUR-USERNAME below, then keep this line -->
-<link rel="canonical" href="https://padhlona.github.io/upsc-resources/">
-<meta property="og:title" content="Free UPSC PYQs, Daily Current Affairs & Practice Questions">
-<meta property="og:description" content="UPSC previous year questions, daily current affairs and practice questions at padhlona.com.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://padhlona.com">
-<meta name="theme-color" content="#1b2a4e">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"PadhLona","url":"https://padhlona.com","description":"UPSC previous year questions, daily current affairs and practice questions."}
-</script>
+
+<title>UPSC Preparation Resources: A Guide for Aspirants</title>
+<meta name="description" content="An editorial guide to UPSC Civil Services preparation, including exam structure, syllabus planning, previous year questions, current affairs and supplementary study resources.">
+
+<!-- Replace with this article's actual preferred URL before publishing -->
+<link rel="canonical" href="https://dailyupscguides.github.io/upsc-preparation-resources/">
+
+<meta property="og:title" content="UPSC Preparation Resources: A Guide for Aspirants">
+<meta property="og:description" content="A practical guide to syllabus planning, previous year questions, current affairs and online study resources for UPSC aspirants.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://dailyupscguides.github.io/upsc-preparation-resources/">
+<meta name="theme-color" content="#253858">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+
 <style>
-:root{
-  --bg:#f5f7fb; --surface:#ffffff; --ink:#16213e; --muted:#55607a;
-  --line:#d6dcea; --accent:#1b2a4e; --accent-ink:#ffffff; --mark:#f2b134;
-  --good:#1f7a4d; --bad:#b3372f;
-  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
-  --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+:root {
+  --bg: #f7f7f4;
+  --surface: #ffffff;
+  --ink: #252b35;
+  --muted: #626d7b;
+  --line: #e0e3e8;
+  --accent: #344b68;
+  --accent-light: #edf1f5;
+  --mark: #d4a74c;
+  --good: #23764d;
+  --bad: #b53c3c;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
-@media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){
-    --bg:#0f1730; --surface:#18234a; --ink:#eaeefb; --muted:#a6b0cd;
-    --line:#2c3a6b; --accent:#f2b134; --accent-ink:#16213e;
-    --good:#5fd39a; --bad:#ff8d84;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141a23;
+    --surface: #1e2734;
+    --ink: #edf0f5;
+    --muted: #adb8c8;
+    --line: #354153;
+    --accent: #b5cbed;
+    --accent-light: #29374a;
+    --mark: #e1bd71;
+    --good: #75d5a1;
+    --bad: #ff9696;
   }
 }
-:root[data-theme="dark"]{
-  --bg:#0f1730; --surface:#18234a; --ink:#eaeefb; --muted:#a6b0cd;
-  --line:#2c3a6b; --accent:#f2b134; --accent-ink:#16213e;
-  --good:#5fd39a; --bad:#ff8d84;
+
+* {
+  box-sizing: border-box;
 }
-*{box-sizing:border-box}
-html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--sans);
-  padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
-a{color:inherit}
-.wrap{max-width:960px;margin:0 auto;padding:0 20px}
-header{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
-.brand{font:700 22px var(--serif);text-decoration:none}
-nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-size:15px}
-nav a:hover{color:var(--ink)}
-.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center;padding:36px 0 56px}
-h1{font:700 clamp(32px,5vw,50px)/1.1 var(--serif);margin:0 0 16px;letter-spacing:-.01em}
-.lede{color:var(--muted);margin:0 0 24px;max-width:46ch}
-.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);padding:13px 22px;
-  border-radius:8px;text-decoration:none;font-weight:600}
-.btn:hover{opacity:.9}
-.btn:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid var(--mark);outline-offset:2px}
-.quiz{background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--mark);
-  border-radius:10px;padding:22px}
-.quiz small{color:var(--muted)}
-.quiz h2{font:600 19px/1.4 var(--serif);margin:8px 0 14px}
-.opt{display:block;width:100%;text-align:left;background:transparent;color:var(--ink);
-  border:1px solid var(--line);border-radius:8px;padding:11px 14px;margin:0 0 9px;
-  font:inherit;cursor:pointer}
-.opt:hover:not(:disabled){border-color:var(--ink)}
-.opt.right{border-color:var(--good);background:color-mix(in srgb,var(--good) 14%,transparent)}
-.opt.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 14%,transparent)}
-#result{margin:12px 0 0;font-size:15px;min-height:1.6em}
-#result a{font-weight:600}
-section{padding:40px 0;border-top:1px solid var(--line)}
-h2.sec{font:700 28px var(--serif);margin:0 0 20px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
-.grid h3{font:700 20px var(--serif);margin:0 0 6px}
-.grid p{margin:0;color:var(--muted)}
-.stages{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.stages div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px}
-.stages b{display:block;font-family:var(--serif);font-size:18px;margin-bottom:4px}
-.stages span{color:var(--muted);font-size:15px}
-.cta{text-align:center;padding:56px 0}
-.cta p{color:var(--muted);margin:0 0 20px}
-footer{border-top:1px solid var(--line);padding:22px 0 32px;color:var(--muted);font-size:14px}
-@media (max-width:760px){
-  .hero,.grid,.stages{grid-template-columns:1fr}
-  nav a:first-child{margin-left:0}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
 }
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.75 var(--sans);
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.wrap {
+  width: min(100% - 36px, 880px);
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  color: var(--ink);
+  text-decoration: none;
+  font: 700 22px var(--serif);
+}
+
+nav {
+  display: flex;
+  gap: 17px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.hero {
+  padding: 48px 0 38px;
+}
+
+.eyebrow {
+  font-size: 12px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-weight: 700;
+}
+
+h1 {
+  max-width: 760px;
+  margin: 12px 0 18px;
+  font: 700 clamp(34px, 5.5vw, 47px)/1.15 var(--serif);
+  letter-spacing: -.7px;
+}
+
+.lede {
+  color: var(--muted);
+  font-size: 18px;
+  max-width: 720px;
+}
+
+.intro-note {
+  margin-top: 25px;
+  padding: 17px 20px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--mark);
+  border-radius: 5px;
+}
+
+.intro-note p {
+  margin-bottom: 0;
+}
+
+section {
+  padding: 36px 0;
+  border-top: 1px solid var(--line);
+}
+
+h2 {
+  font: 700 28px/1.3 var(--serif);
+  margin: 0 0 16px;
+}
+
+h3 {
+  font: 700 20px/1.4 var(--serif);
+  margin: 0 0 9px;
+}
+
+p {
+  margin: 12px 0 18px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 22px 0;
+}
+
+.card {
+  padding: 19px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 7px;
+}
+
+.card p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+th, td {
+  border: 1px solid var(--line);
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--accent-light);
+}
+
+li {
+  margin-bottom: 9px;
+}
+
+.quiz {
+  margin: 25px 0;
+  padding: 22px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.quiz small {
+  color: var(--muted);
+}
+
+.quiz h3 {
+  margin-top: 12px;
+}
+
+.opt {
+  display: block;
+  width: 100%;
+  margin: 9px 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+
+.opt:hover:not(:disabled) {
+  border-color: var(--accent);
+  background: var(--accent-light);
+}
+
+.opt.right {
+  border-color: var(--good);
+  background: color-mix(in srgb, var(--good) 12%, transparent);
+}
+
+.opt.wrong {
+  border-color: var(--bad);
+  background: color-mix(in srgb, var(--bad) 12%, transparent);
+}
+
+.opt:disabled {
+  cursor: default;
+}
+
+#result {
+  min-height: 1.5em;
+  margin-bottom: 0;
+}
+
+.resource-list {
+  list-style: none;
+  padding: 0;
+}
+
+.resource-list li {
+  padding: 15px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.resource-list li:last-child {
+  border-bottom: 0;
+}
+
+.resource-list p {
+  color: var(--muted);
+  font-size: 15px;
+  margin: 4px 0 0;
+}
+
+.resource-title {
+  font-weight: 700;
+}
+
+.article-note {
+  padding: 16px 18px;
+  background: var(--accent-light);
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+footer {
+  padding: 24px 0 34px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 13px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--mark);
+  outline-offset: 3px;
+}
+
+@media (max-width: 650px) {
+  header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding-top: 34px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
 </style>
 </head>
+
 <body>
 <div class="wrap">
-  <header>
-    <a class="brand" href="https://padhlona.com">PadhLona</a>
-    <nav>
-      <a href="#resources">Resources</a>
-      <a href="#pattern">Exam pattern</a>
-      <a href="https://padhlona.com">Visit site</a>
-    </nav>
-  </header>
 
-  <main>
+<header>
+  <a class="brand" href="#top">UPSC Study Desk</a>
+
+  <nav aria-label="Main navigation">
+    <a href="#exam-pattern">Exam pattern</a>
+    <a href="#syllabus">Syllabus</a>
+    <a href="#practice">PYQs</a>
+    <a href="#resources">Resources</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <article>
+
     <div class="hero">
-      <div>
-        <h1>Practise UPSC the way the exam asks.</h1>
-        <p class="lede">Previous year questions, daily current affairs and practice questions for Prelims and Mains, all in one place on PadhLona.</p>
-        <a class="btn" href="https://padhlona.com">Start practising on padhlona.com</a>
+      <div class="eyebrow">Civil Services Examination · Preparation Guide</div>
+
+      <h1>A practical guide to organizing UPSC preparation</h1>
+
+      <p class="lede">
+        Preparing for the Civil Services Examination involves understanding
+        the syllabus, practising questions, revising consistently and
+        keeping current affairs connected to the subjects being studied.
+        This guide brings together useful reference points and supplementary
+        resources in one place.
+      </p>
+
+      <div class="intro-note">
+        <strong>How to use this guide</strong>
+        <p>
+          Start with the official syllabus and examination notification.
+          Use previous year papers to assess your understanding, maintain
+          concise revision notes and select supplementary resources
+          according to your preparation needs.
+        </p>
+      </div>
+    </div>
+
+    <section id="exam-pattern">
+      <h2>Understanding the exam structure</h2>
+
+      <p>
+        The UPSC Civil Services Examination has three stages: Preliminary
+        Examination, Main Examination and Personality Test. Each stage
+        requires a different approach to preparation and practice.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Stage</th>
+            <th>Components</th>
+            <th>Format</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Prelims</td>
+            <td>General Studies Paper I and CSAT Paper II</td>
+            <td>Objective-type questions</td>
+          </tr>
+          <tr>
+            <td>Mains</td>
+            <td>Essay, General Studies I–IV, optional subject papers and qualifying language papers</td>
+            <td>Written examination</td>
+          </tr>
+          <tr>
+            <td>Personality Test</td>
+            <td>Interview</td>
+            <td>Personality assessment</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        CSAT is qualifying in nature. For the latest examination scheme,
+        eligibility rules, syllabus and dates, refer to the
+        <a href="https://upsc.gov.in/"
+           target="_blank"
+           rel="noopener noreferrer">official UPSC website</a>.
+      </p>
+    </section>
+
+    <section id="syllabus">
+      <h2>Syllabus areas to keep track of</h2>
+
+      <p>
+        Breaking the syllabus into smaller topics makes it easier to
+        monitor progress and identify subjects that need additional
+        revision or practice.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Prelims GS Paper I</h3>
+          <p>
+            History, geography, polity, governance, economy, environment,
+            science and current events.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>CSAT Paper II</h3>
+          <p>
+            Comprehension, logical reasoning, analytical ability,
+            numeracy and data interpretation.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Mains</h3>
+          <p>
+            Essay, General Studies I–IV, optional subject and qualifying
+            language papers under the official examination scheme.
+          </p>
+        </div>
       </div>
 
-      <div class="quiz" aria-live="polite">
-        <small>Try one now (sample practice question)</small>
-        <h2>Which Article of the Indian Constitution protects the right to life and personal liberty?</h2>
+      <h3>A simple syllabus checklist</h3>
+
+      <ul>
+        <li>Identify topics from the official syllabus.</li>
+        <li>Divide broad subjects into manageable subtopics.</li>
+        <li>Mark topics that require more study or revision.</li>
+        <li>Schedule revision and question practice alongside reading.</li>
+        <li>Revisit difficult concepts at regular intervals.</li>
+      </ul>
+    </section>
+
+    <section id="practice">
+      <h2>Using previous year questions effectively</h2>
+
+      <p>
+        Previous year questions (PYQs) help aspirants understand how
+        concepts are tested, identify recurring themes and assess
+        gaps in preparation. They work best alongside syllabus study
+        rather than as a substitute for it.
+      </p>
+
+      <ol>
+        <li>Solve topic-wise questions after studying a topic.</li>
+        <li>Attempt full papers under timed conditions.</li>
+        <li>Review incorrect answers and questions solved by guessing.</li>
+        <li>Record the concepts behind mistakes and revisit them.</li>
+        <li>Practise structured Mains answers within prescribed word limits.</li>
+      </ol>
+
+      <div class="quiz">
+        <small>Quick knowledge check · Indian Polity</small>
+
+        <h3>
+          Which Article of the Indian Constitution protects the right
+          to life and personal liberty?
+        </h3>
+
         <button class="opt" data-ok="0">Article 14</button>
         <button class="opt" data-ok="0">Article 19</button>
         <button class="opt" data-ok="1">Article 21</button>
         <button class="opt" data-ok="0">Article 32</button>
-        <p id="result"></p>
+
+        <p id="result" role="status" aria-live="polite"></p>
       </div>
-    </div>
+
+      <p>
+        Aspirants looking for more practice material can explore
+        <a href="https://padhlona.com/questions"
+           target="_blank"
+           rel="noopener noreferrer">UPSC question practice on PadhLona</a>.
+        It is one supplementary option for working through additional
+        questions alongside official previous year papers.
+      </p>
+    </section>
+
+    <section id="current-affairs">
+      <h2>Making current affairs easier to revise</h2>
+
+      <p>
+        Current affairs preparation can become difficult when news is
+        collected without being connected to the syllabus. Organizing
+        material by subject makes revision more manageable.
+      </p>
+
+      <ul>
+        <li>Connect developments to relevant static syllabus topics.</li>
+        <li>Keep concise notes organized by subject.</li>
+        <li>Review important developments weekly and monthly.</li>
+        <li>Record relevant background, implications and policy issues.</li>
+        <li>Use practice questions to check understanding and retention.</li>
+      </ul>
+
+      <p>
+        For supplementary reading, see
+        <a href="https://padhlona.com/currentaffairs"
+           target="_blank"
+           rel="noopener noreferrer">PadhLona's daily current affairs section</a>.
+        Compare third-party material with reliable reporting and
+        official publications before using it in your notes.
+      </p>
+    </section>
 
     <section id="resources">
-      <h2 class="sec">What you get on PadhLona</h2>
-      <div class="grid">
-        <div>
-          <h3>UPSC PYQs</h3>
-          <p>Previous year questions to understand how topics are tested and which areas repeat.</p>
-        </div>
-        <div>
-          <h3>Daily current affairs</h3>
-          <p>Exam-relevant news, linked to the syllabus so you revise what matters.</p>
-        </div>
-        <div>
-          <h3>Practice questions</h3>
-          <p>Regular question sets to check your preparation before the real paper.</p>
-        </div>
+      <h2>Useful resources for UPSC aspirants</h2>
+
+      <p>
+        These resources serve different purposes. Official sources are
+        the primary reference for examination-related information,
+        while other websites may provide supplementary practice material.
+      </p>
+
+      <ul class="resource-list">
+        <li>
+          <a class="resource-title"
+             href="https://upsc.gov.in/"
+             target="_blank"
+             rel="noopener noreferrer">Union Public Service Commission</a>
+          <p>
+            Official notifications, syllabus documents, examination
+            calendar, results and other examination information.
+          </p>
+        </li>
+
+        <li>
+          <a class="resource-title"
+             href="https://padhlona.com/"
+             target="_blank"
+             rel="noopener noreferrer">PadhLona</a>
+          <p>
+            A supplementary UPSC preparation website with question
+            practice and current affairs material.
+          </p>
+        </li>
+
+        <li>
+          <a class="resource-title"
+             href="https://padhlona.com/questions"
+             target="_blank"
+             rel="noopener noreferrer">UPSC question practice</a>
+          <p>
+            Additional questions for self-assessment and revision.
+          </p>
+        </li>
+
+        <li>
+          <a class="resource-title"
+             href="https://padhlona.com/currentaffairs"
+             target="_blank"
+             rel="noopener noreferrer">Daily current affairs</a>
+          <p>
+            Supplementary current affairs material for examination preparation.
+          </p>
+        </li>
+      </ul>
+
+      <div class="article-note">
+        Third-party resources are not official UPSC publications.
+        Check their relevance and accuracy, and verify examination
+        details against official UPSC notifications.
       </div>
     </section>
 
-    <section id="pattern">
-      <h2 class="sec">UPSC exam at a glance</h2>
-      <div class="stages">
-        <div><b>Prelims</b><span>GS Paper I and CSAT. Objective questions; CSAT is qualifying.</span></div>
-        <div><b>Mains</b><span>Essay, four GS papers, optional subject and language papers.</span></div>
-        <div><b>Interview</b><span>Personality Test conducted by a UPSC panel.</span></div>
-      </div>
-      <p style="color:var(--muted);font-size:15px;margin-top:16px">Always confirm the latest pattern and dates on the official <a href="https://upsc.gov.in" rel="noopener">UPSC website</a>.</p>
+    <section id="routine">
+      <h2>Building a consistent study routine</h2>
+
+      <p>
+        A manageable preparation routine can combine syllabus coverage,
+        question practice, revision and answer writing. The time allocated
+        to each activity will depend on your preparation stage and
+        individual strengths.
+      </p>
+
+      <p>
+        Review your progress periodically, identify specific gaps and
+        adjust your plan. Avoid changing resources repeatedly when
+        revision and consistent practice are the more immediate needs.
+      </p>
     </section>
 
-    <section class="cta">
-      <h2 class="sec">Ready to solve more?</h2>
-      <p>Open PadhLona for PYQs, today's current affairs and fresh practice questions.</p>
-      <a class="btn" href="https://padhlona.com">Go to padhlona.com</a>
-    </section>
-  </main>
+  </article>
 
-  <footer>
-    <a href="https://padhlona.com">PadhLona</a>: UPSC PYQs, daily current affairs and practice questions.
-  </footer>
+</main>
+
+<footer>
+  <p>
+    UPSC Study Desk · A preparation reference for Civil Services aspirants.
+  </p>
+  <p>
+    Examination-related information should be verified against official
+    UPSC publications. Third-party resources are included for reference.
+  </p>
+</footer>
+
 </div>
 
 <script>
-(function(){
-  var opts=document.querySelectorAll('.opt'),out=document.getElementById('result');
-  opts.forEach(function(b){
-    b.addEventListener('click',function(){
-      opts.forEach(function(o){
-        o.disabled=true;
-        if(o.dataset.ok==='1')o.classList.add('right');
+(function () {
+  var options = document.querySelectorAll(".opt");
+  var result = document.getElementById("result");
+
+  options.forEach(function (button) {
+    button.addEventListener("click", function () {
+      if (button.disabled) return;
+
+      var correct = button.dataset.ok === "1";
+
+      options.forEach(function (option) {
+        option.disabled = true;
+
+        if (option.dataset.ok === "1") {
+          option.classList.add("right");
+        }
       });
-      var ok=b.dataset.ok==='1';
-      if(!ok)b.classList.add('wrong');
-      out.innerHTML=(ok?'Correct. ':'Not quite. ')+'Article 21 covers life and personal liberty. <a href="https://padhlona.com">Practise more on padhlona.com</a>';
+
+      if (!correct) {
+        button.classList.add("wrong");
+      }
+
+      result.textContent = correct
+        ? "Correct. Article 21 protects life and personal liberty."
+        : "Not quite. The correct answer is Article 21, which protects life and personal liberty.";
     });
   });
 })();
 </script>
+
 </body>
 </html>
