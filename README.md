@@ -1,91 +1,89 @@
-# UPSC Resources: Syllabus Checklist, PYQ Tips & Study Links
+# UPSC Civil Services Preparation Resources
 
-A free, open collection of resources for **UPSC Civil Services Examination** aspirants: syllabus checklists, preparation strategy, and useful links.
+A community-maintained collection of study resources for aspirants preparing for the **UPSC Civil Services Examination (CSE)**. This repository brings together syllabus checklists, previous year question (PYQ) practice tips, current affairs guidance, and useful reference links.
 
-👉 For **UPSC PYQs, daily current affairs and practice questions**, visit **[padhlona.com](https://padhlona.com)**.
+For additional preparation material, [PadhLona](https://padhlona.com/) provides supplementary resources for UPSC aspirants, including question practice and current affairs.
 
----
+## Contents
 
-## 📌 Contents
-
-- [Exam Pattern](https://padhlona.com)
-- [Prelims Syllabus Checklist](https://padhlona.com)
-- [Mains Syllabus Checklist](https://padhlona.com))
-- [How to Use PYQs Effectively](https://padhlona.com))
-- [Current Affairs Strategy](https://padhlona.com))
-- [Useful Links](https://padhlona.com))
-- [Contributing](https://padhlona.com))
+- [Exam Pattern](#exam-pattern)
+- [Prelims Syllabus Checklist](#prelims-syllabus-checklist)
+- [Mains Syllabus Checklist](#mains-syllabus-checklist)
+- [Using Previous Year Questions](#using-previous-year-questions)
+- [Current Affairs Preparation](#current-affairs-preparation)
+- [Useful Resources](#useful-resources)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
 ## Exam Pattern
 
-| Stage | Papers | Nature |
-|-------|--------|--------|
-| Prelims | GS Paper I, CSAT (Paper II) | Objective, CSAT is qualifying |
-| Mains | Essay, GS I–IV, Optional (2 papers), language papers | Descriptive |
-| Interview | Personality Test | Panel interview |
+The Civil Services Examination consists of three stages:
 
-> Always verify the latest pattern on the official UPSC website: https://upsc.gov.in
+| Stage | Components | Format |
+|---|---|---|
+| Preliminary Examination | General Studies Paper I and CSAT (Paper II) | Objective-type papers |
+| Main Examination | Essay, General Studies I–IV, Optional Subject papers, and qualifying language papers | Written examination |
+| Personality Test | Interview | Assessment of suitability for civil services |
 
----
+CSAT is qualifying in nature. Always check the latest examination notification for official details.
+
+**Official reference:** [UPSC website](https://upsc.gov.in/)
 
 ## Prelims Syllabus Checklist
 
 - [ ] Current events of national and international importance
-- [ ] History of India and Indian National Movement
+- [ ] History of India and the Indian National Movement
 - [ ] Indian and World Geography
 - [ ] Indian Polity and Governance
 - [ ] Economic and Social Development
-- [ ] Environment, Ecology, Biodiversity and Climate Change
+- [ ] Environment, Ecology, Biodiversity, and Climate Change
 - [ ] General Science
+
+For CSAT, review comprehension, logical reasoning, analytical ability, basic numeracy, and data interpretation.
 
 ## Mains Syllabus Checklist
 
-- [ ] **GS I:** Indian Heritage and Culture, History, Geography, Society
-- [ ] **GS II:** Governance, Constitution, Polity, Social Justice, International Relations
-- [ ] **GS III:** Economy, Agriculture, Science & Technology, Environment, Security, Disaster Management
-- [ ] **GS IV:** Ethics, Integrity and Aptitude
 - [ ] **Essay**
-- [ ] **Optional Subject**
+- [ ] **General Studies I:** Indian Heritage and Culture, History, Geography, and Society
+- [ ] **General Studies II:** Governance, Constitution, Polity, Social Justice, and International Relations
+- [ ] **General Studies III:** Economy, Agriculture, Science and Technology, Environment, Security, and Disaster Management
+- [ ] **General Studies IV:** Ethics, Integrity, and Aptitude
+- [ ] **Optional Subject:** Paper I and Paper II
+- [ ] **Qualifying Language Papers:** As specified in the official examination scheme
 
----
+Refer to the official syllabus for the complete requirements.
 
-## How to Use PYQs Effectively
+## Using Previous Year Questions
 
-1. Solve the last 10 years of Prelims papers **after** finishing one round of the syllabus.
-2. Analyse **topic-wise trends**: which areas repeat most often.
-3. Note the **type** of question (statement-based, match-the-following, assertion-reason).
-4. Revisit wrong answers and build short notes from them.
-5. For Mains, practise writing answers to past questions within the word limit.
+Previous year questions (PYQs) help aspirants understand question patterns, identify recurring themes, and assess preparation.
 
-Practise previous year questions at **[padhlona.com](https://padhlona.com/questions)**.
+1. Solve topic-wise questions after studying each topic.
+2. Attempt full papers under timed conditions.
+3. Identify recurring concepts without assuming past trends guarantee future questions.
+4. Review incorrect answers and record conceptual gaps.
+5. Revisit difficult questions during revision.
+6. Practise structured Mains answers within the prescribed word limits.
 
-## Current Affairs Strategy
+For additional practice, explore [UPSC previous year questions and practice resources on PadhLona](https://padhlona.com/questions).
 
-- Read daily, but stay **syllabus-focused**.
-- Maintain monthly compilations for quick revision.
-- Link news to static topics (Polity, Economy, Environment, etc.).
-- Revise weekly and monthly, not just once.
+## Current Affairs Preparation
 
-Get daily UPSC current affairs at **[padhlona.com](https://padhlona.com/currentaffairs)**.
+- Read reliable news sources consistently.
+- Connect important developments to Polity, Economy, Environment, and other syllabus topics.
+- Maintain concise notes organized by subject.
+- Review important developments weekly and monthly.
+- Focus on context, causes, implications, and possible solutions.
+- Use PYQs to understand the relevance of current developments to the examination.
 
----
+For supplementary reading, see [daily UPSC current affairs on PadhLona](https://padhlona.com/currentaffairs).
 
-## Useful Links
+## Useful Resources
 
-- 🌐 [PadhLona](https://padhlona.com): UPSC PYQs, daily current affairs, practice questions
-- 🏛️ [UPSC Official Website](https://upsc.gov.in)
-
----
-
-## Contributing
-
-Contributions are welcome. Feel free to open an issue or pull request to add resources, fix errors, or suggest improvements.
-
-## License
-
-Released under the [MIT License](LICENSE).
-
----
-⭐ If this helped you, star the repo and share it with fellow aspirants.
+| Resource | Purpose |
+|---|---|
+| [UPSC Official Website](https://upsc.gov.in/) | Official notifications, syllabus, examination calendar, and results |
+| [PadhLona](https://padhlona.com/) | Supplementary UPSC preparation resources |
+| [UPSC PYQs and Practice Questions](https://padhlona.com/questions) | Additional question practice and revision |
+| [
